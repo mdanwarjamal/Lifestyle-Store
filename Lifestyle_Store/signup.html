@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="nv">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="index.html" class="navbar-brand">Lifestyle Store</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavBar">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown-item"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown-item"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						</ul>
+					</div>
+				</div>
+		</nav>
+		</div>
+		<div class="panel panel_style">
+			
+			<div class="panel-body">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 col-xs-offset-4">
+							<p class="text-warning">Sign Up</p>
+							<form>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Name" name="name">
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control" placeholder="Email" name="email">
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control" placeholder="Password" name="pwd">
+								</div>
+								<div class="form-group">
+									<input type="tel" class="form-control" placeholder="Contact" name="contact">
+								</div>
+								<div class="form-group">
+									<select name="city" class="form-control">
+										<option>--Select a city--</option>
+										<option>Kolkata</option>
+										<option>New Delhi</option>
+										<option>Mumbai</option>
+										<option>Bengaluru</option>
+										<option>Chennai</option>
+										<option>Hyderabad</option>
+										<option>Pune</option>
+										<option>Patna</option>
+										<option>Bhopal</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Address" name="add">
+								</div>
+								<center>
+								<div class="form-group">
+									<a href="login.html">
+										<button type="button" class="btn btn-primary" name="signup_btn">Sign Up</button>
+									</a>
+								</div>
+								</center>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="navbar-fixed-bottom">
+			<div class="container">
+				<center>
+					<p>Copyright © Lifestyle Store. All Rights
+						Reserved | Contact Us: +91 90000 00000</p>
+				</center>
+			</div>
+		</footer>
+	</body>
+</html>
